@@ -29,7 +29,7 @@ main {
 }
 
 .login {
-    position: relative;
+    position: absolute;
     background-color: #fff;
     overflow: hidden;
     width: 250px;
@@ -38,14 +38,18 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
     display: flex;
     flex-direction: column;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 .img {
     background: url('../imgs/metal.jpg') no-repeat left bottom;
     background-size: cover;
     height: 200px;
+    
 }
 
 .forms {
     padding: 10px;
+   
 }
