@@ -13,6 +13,13 @@
     .img {
         width: 30%;
         height: 100%;
+        transition: transform .3s ease-in;
+        transition-delay: 0s;
+        box-sizing: border-box;
+    }
+
+    .img:hover {
+        transform: scale(1.03);
     }
 
     .forms {
@@ -37,10 +44,26 @@
     .img {
         width: 50%;
         height: 100%;
+        transition: transform .3s ease-in;
+        transition-delay: 0s;
+        box-sizing: border-box;
+    }
+
+    .img:hover {
+        transform: scale(1.01);
     }
 
     .forms {
         width: 50%;
         height: 100%;
+        box-sizing: border-box;
+    }
+
+    .forms h1 {
+        font-size: 2em;
+    }
+
+    .forms p {
+        font-size: 1.2em;
     }
 }
