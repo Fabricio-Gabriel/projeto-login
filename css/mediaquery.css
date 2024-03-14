@@ -9,6 +9,7 @@
         width: 90vw;
         flex-direction: row;
     }
+    
 
     .img {
         width: 30%;
@@ -24,7 +25,27 @@
 
     .forms {
         width: 70%;
+        height: 100%;
+    }
 
+    .forms > p {
+        font-size: 1.2em;
+    }
+
+    form {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 130px;
+    }
+
+    .inputs {
+        justify-self: center;
+    }
+
+    .botoes {
+        justify-self: flex-end;
     }
 
 }
@@ -65,5 +86,17 @@
 
     .forms p {
         font-size: 1.2em;
+    }
+
+    form {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 125px;
+        box-sizing: border-box;
+    }
+
+    .inputs {
+        margin-top: 40px;
     }
 }
